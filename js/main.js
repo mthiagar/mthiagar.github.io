@@ -23,7 +23,7 @@ $(function() {
     $('.open-menu').height($(window).height());
   });
   
-  window.onscroll = () => {
-    const nav = document.querySelector('#navbar');
-    if(this.scrollY <= 10) nav.className = ''; else nav.className = 'scroll';
-  };
+window.onscroll = () => {
+  const nav = document.querySelector('#navbar');
+  if(this.scrollY <= 10) nav.className = ''; else nav.className = 'scroll';
+};
