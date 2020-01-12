@@ -46,3 +46,17 @@ window.onscroll = () => {
   const nav = document.querySelector('#navbar');
   if(this.scrollY <= 10) nav.className = ''; else nav.className = 'scroll';
 };
+
+ready(() => {
+  animate_arrow();
+});
+
+
+function animate_arrow() {
+  let timeline = new TimelineMax({ repeat: -1 });
+  let arrow = document.getElementById("arrow-button");
+
+  timeline.add(TweenLite.to(arrow, 0.5, { bottom: "1rem", ease: Power0.easeNone }));
+  timeline.add(TweenLite.to(arrow, 0.5, { bottom: "2rem", ease: Power0.easeNone }));
+  scroll_arrow();
+}
