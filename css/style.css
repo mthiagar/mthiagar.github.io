@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
+.section-main a{
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.section-main a:hover 
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
 body {
 	height: 100%;
 	margin: 0;
@@ -149,7 +162,7 @@ section {
   nav li {
     display: inline-block;
     transition: 0.5s;
-    width: 24.5%;
+    width: 32.5%;
     text-align: center;
   }
 
@@ -238,6 +251,13 @@ section {
     zoom: 1;
   }
  
+
+.contact-main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
 /* Scroll button */  
 .scroll-button {
     position: absolute;

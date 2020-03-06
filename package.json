@@ -1,0 +1,22 @@
+{
+  "name": "mthiagar.github.io",
+  "version": "1.0.0",
+  "description": "Madhuran Thiagarajah Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mthiagar/mthiagar.github.io.git"
+  },
+  "author": "Madhuran Thiagarajah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mthiagar/mthiagar.github.io/issues"
+  },
+  "homepage": "https://github.com/mthiagar/mthiagar.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
